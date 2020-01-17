@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Try Something New!</h1>
+        <h4>Tired of eating at the same restaurant over and over?<br>
+            Generate a Must Try restaurant list for your neighborhood/city.</h4>
+
+        <form id="jsForm">
+            <label for="location">Enter your location</label>
+            <input type="text" name="location" id="jsLocation">
+            <button type="submit">Submit</button>
+        </form>
+
+        <p id="jsErrorMsg" class="errorMsg"></p>
+
+        <section id="results" class="hidden">
+            <h3>Restaurants:</h3>
+            <ul id="resultsList">
+                <!-- <button class="accordion">restaurant1</button>
+                <div class="details">
+                    <p>lorem ipsum...</p>
+                </div>
+
+                <button class="accordion">restaurant2</button>
+                <div class="details">
+                    <p>lorem ipsum...</p>
+                </div> -->
+            </ul>
+        </section>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+</body>
+</html>

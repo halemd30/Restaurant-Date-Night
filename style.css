@@ -1,0 +1,18 @@
+/* .accordion {
+    cursor: pointer;
+    padding: 18px;
+    width: 80%;
+    text-align: left;
+    transition: 0.4s;
+}
+
+.active, .accordion:hover {
+    background-color: gainsboro;
+}
+
+.details {
+    padding: 0 18px;
+    background-color: white;
+    display: none;
+    overflow: hidden;
+} */
